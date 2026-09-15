@@ -1,4 +1,4 @@
-# Aimachautomation
+# AIMACH Automation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aimachautomation is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/aimachautomation
+AIMACH Automation is the international brand of **Jiangsu Desu Intelligent Machinery Co., Ltd.**
+(江苏德速智能机械股份有限公司), a Changzhou, Jiangsu manufacturer of machine-tool core functional
+components founded in 2009. Its products are physical assemblies — CNC tool magazines (刀库),
+motorized spindles (主轴), rotary/index tables (转台) and mineral-cast machine beds (矿物铸件) —
+together with five-axis machining-centre platforms, ultra-precision grinders and turnkey
+automated production lines.
+
+## API surface
+
+**None found.** Probed 2026-09-14. The company's only live web host, `descnc-china.com`, is a
+Chinese-language corporate site with seven sections (home, about, news, products, technology
+centre, investor relations, careers) and no developer, API, or documentation area. Every named
+`/.well-known/` path and every conventional specification path (`/openapi.json`, `/openapi.yaml`,
+`/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql`, `/llms.txt`)
+returned HTTP 404 on both `descnc-china.com` and `www.descnc-china.com`. No npm, PyPI or GitHub
+organization presence. See `apis.yml` `x-coverage` for the recorded evidence.
+
+## Name collisions — do not merge these
+
+- **AI Mach** (`aimach.ai`, Irving, Texas) is an unrelated enterprise-AI marketplace. `aimach.net`
+  301-redirects to it; that redirect is **not** this company.
+- `aimach.com.cn` is a parked domain listed for sale by a domain broker.
+- `desu-aimach.com` carries this company's corporate mail (MX + SPF) but serves no website.
+
+## Links
+
+- Website — http://descnc-china.com/
+- Products — http://descnc-china.com/products.html
+- Technology centre — http://descnc-china.com/js.html
+- Investor relations — http://descnc-china.com/tz1_class_6.html
+- EquityZen profile (harvest source) — https://equityzen.com/company/aimachautomation

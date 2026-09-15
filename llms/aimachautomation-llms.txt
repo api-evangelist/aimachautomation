@@ -1,0 +1,34 @@
+# AIMACH Automation (Jiangsu Desu Intelligent Machinery Co., Ltd. / 江苏德速智能机械股份有限公司)
+
+> A Changzhou, Jiangsu manufacturer of machine-tool core functional components, founded
+> 2009. Products are physical assemblies: CNC tool magazines, motorized spindles, rotary
+> and index tables, and mineral-cast machine beds, plus five-axis machining-centre
+> platforms, ultra-precision grinders and turnkey automated production lines. AIMACH is
+> the international brand; the operating company is Jiangsu Desu Intelligent Machinery.
+
+## Important for agents
+
+- **This company publishes no API.** There is no developer portal, no API reference, no
+  OpenAPI/AsyncAPI/GraphQL/gRPC/SOAP contract, no SDK, no MCP server and no agent card.
+  Probed 2026-09-14; every named `/.well-known/` path and every conventional spec path
+  returned HTTP 404 on both corporate hosts.
+- The corporate site is Chinese-language only and is served over plain HTTP; there is no
+  TLS listener on port 443.
+- `desu-aimach.com` is a mail-only domain (MX + SPF, no website).
+- Do not confuse this company with **AI Mach** (`aimach.ai`, Irving, Texas), an unrelated
+  enterprise-AI marketplace, or with the parked domain `aimach.com.cn`.
+
+## Company
+
+- [Homepage](http://descnc-china.com/): Corporate site, Chinese language.
+- [About / company profile](http://descnc-china.com/about.html): History, structure, culture, facilities.
+- [Products](http://descnc-china.com/products.html): Tool magazines, spindles, rotary tables, mineral castings.
+- [Technology centre](http://descnc-china.com/js.html): Provincial R&D platforms, metrology equipment, university partnerships.
+- [News](http://descnc-china.com/news.html): Dated company announcements and procurement tenders.
+- [Investor relations](http://descnc-china.com/tz1_class_6.html): Governance policies and company announcements (pre-IPO).
+- [Careers](http://descnc-china.com/jobs.html)
+- [Contact](http://descnc-china.com/about_7.html): Hotline 400 182 9891 / 0519-68213880, xsb@desu-aimach.com, No. 8 Fengxiang Road, Wujin High-tech Zone, Changzhou, Jiangsu.
+
+## Optional
+
+- [EquityZen company profile](https://equityzen.com/company/aimachautomation): Secondary-market pre-IPO listing that surfaced this company into the API Evangelist harvest backlog.

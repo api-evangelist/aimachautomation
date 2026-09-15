@@ -1,0 +1,35 @@
+generated: '2026-09-14'
+method: probed
+source: live DNS/TLS/HTTP probes of the apis.yml website host and the corporate mail domain
+note: >-
+  The company's only live web host, descnc-china.com, serves plain HTTP and does not
+  answer on port 443 at all — https://descnc-china.com/ returns a connection failure,
+  not a certificate error. The AIMACH-branded domain desu-aimach.com carries MX and
+  SPF records (Alibaba Cloud corporate mail) but no A record, so it is a mail-only
+  domain. CAA absence was re-confirmed directly against 8.8.8.8 after the first probe
+  timed out.
+hosts:
+- host: descnc-china.com
+  https: false
+  http_status: 200
+  note: HTTP 200 on port 80; no TLS listener on port 443.
+- host: www.descnc-china.com
+  https: false
+  http_status: 200
+- host: desu-aimach.com
+  https: false
+  note: Mail-only domain (MX + SPF, no A record).
+domains:
+- domain: descnc-china.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+  hsts: false
+- domain: desu-aimach.com
+  dnssec: false
+  caa: []
+  spf: true
+  spf_record: 'v=spf1 include:spf.qiye.aliyun.com -all'
+  dmarc: false
+  hsts: false

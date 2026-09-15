@@ -1,7 +1,17 @@
 aid: aimachautomation
-name: Aimachautomation
-description: 'Aimachautomation is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: AIMACH Automation
+description: 'AIMACH Automation is the international brand of Jiangsu Desu Intelligent
+  Machinery Co., Ltd. (江苏德速智能机械股份有限公司), a Changzhou, Jiangsu-based manufacturer
+  of machine-tool core functional components founded in 2009. Its product lines are
+  physical assemblies — CNC tool magazines (刀库), motorized spindles (主轴), rotary /
+  index tables (转台) and mineral-cast machine beds (矿物铸件) — which the company states
+  account for more than 60% of a machine tool''s total cost. It also builds five-axis
+  machining-centre platforms, ultra-precision grinders and turnkey automated production
+  lines for automotive and general manufacturing customers, and operates provincial
+  R&D centres for CNC machine-tool functional components. The company is pre-IPO and
+  runs a Chinese-language corporate site with an investor-relations section; it publishes
+  no developer portal, API documentation, SDK, or machine-readable contract of any
+  kind.'
 url: https://raw.githubusercontent.com/api-evangelist/aimachautomation/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -10,8 +20,16 @@ x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-14'
 modified: '2026-09-14'
+position: Producing
 tags:
 - Company
+- Industrial Automation
+- Manufacturing
+- Machine Tools
+- CNC
+- Robotics
+- Hardware
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +38,52 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: http://descnc-china.com/
+- type: About
+  url: http://descnc-china.com/about.html
+- type: Solutions
+  url: http://descnc-china.com/products.html
+- type: Blog
+  url: http://descnc-china.com/news.html
+- type: Support
+  url: http://descnc-china.com/about_7.html
+- type: InvestorRelations
+  url: http://descnc-china.com/tz1_class_6.html
+- type: Careers
+  url: http://descnc-china.com/jobs.html
+- type: x-EquityZenProfile
   url: https://equityzen.com/company/aimachautomation
+- type: DomainSecurity
+  url: security/aimachautomation-domain-security.yml
+- type: x-WellKnownProbe
+  url: well-known/aimachautomation-well-known.yml
+- type: LLMsTxt
+  url: llms/aimachautomation-llms.txt
+
+x-enrichment:
+  date: '2026-09-14'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    AIMACH Automation is the brand of Jiangsu Desu Intelligent Machinery, a Changzhou
+    machine-tool components manufacturer whose products are physical assemblies (tool
+    magazines, spindles, rotary tables, mineral-cast beds); its seven-section Chinese
+    corporate site has no developer, API or documentation section at all, and every
+    named /.well-known/ and spec path 404s on both of its hosts.
+  evidence:
+  - url: http://descnc-china.com/
+    status: 200
+  - url: http://descnc-china.com/js.html
+    status: 200
+  - url: http://descnc-china.com/openapi.json
+    status: 404
+  - url: http://descnc-china.com/.well-known/agent-card.json
+    status: 404
+  - url: http://www.descnc-china.com/.well-known/api-catalog
+    status: 404
+  checked: '2026-09-14'

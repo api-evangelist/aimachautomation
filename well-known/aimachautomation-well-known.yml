@@ -1,0 +1,59 @@
+generated: '2026-09-14'
+method: probed
+source: >-
+  Direct HTTP probes of the named /.well-known/ path list against every host this
+  record knows. There are no apis[] entries and no OpenAPI servers[] hosts, so the
+  host set is the corporate web host and its www alias.
+note: >-
+  Every named path returned HTTP 404 with the IIS HTML error page. No /.well-known/
+  document is served on any host, so NO WellKnown or SecurityTxt pointer is wired in
+  apis.yml — this file records a verified absence, not a presence.
+hosts:
+- host: descnc-china.com
+  scheme: http
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.descnc-china.com
+  scheme: http
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
