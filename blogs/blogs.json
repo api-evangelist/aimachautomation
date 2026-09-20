@@ -1,0 +1,14 @@
+{
+  "repo": "aimachautomation",
+  "feeds": [
+    {
+      "source": "http://descnc-china.com/products.html",
+      "feed_url": "http://descnc-china.com/products.html",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-19T20:17:39Z"
+}
