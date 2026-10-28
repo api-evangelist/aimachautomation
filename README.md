@@ -64,34 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AIMACH Automation is the international brand of **Jiangsu Desu Intelligent Machinery Co., Ltd.**
-(江苏德速智能机械股份有限公司), a Changzhou, Jiangsu manufacturer of machine-tool core functional
-components founded in 2009. Its products are physical assemblies — CNC tool magazines (刀库),
-motorized spindles (主轴), rotary/index tables (转台) and mineral-cast machine beds (矿物铸件) —
-together with five-axis machining-centre platforms, ultra-precision grinders and turnkey
-automated production lines.
+AIMACH Automation is the international brand of Jiangsu Desu Intelligent Machinery Co., Ltd. (江苏德速智能机械股份有限公司), a Changzhou, Jiangsu-based manufacturer of machine-tool core functional components founded in 2009. Its product lines are physical assemblies — CNC tool magazines (刀库), motorized spindles (主轴), rotary / index tables (转台) and mineral-cast machine beds (矿物铸件) — which the company states account for more than 60% of a machine tool's total cost. It also builds five-axis machining-centre platforms, ultra-precision grinders and turnkey automated production lines for automotive and general manufacturing customers, and operates provincial R&D centres for CNC machine-tool functional components. The company is pre-IPO and runs a Chinese-language corporate site with an investor-relations section; it publishes no developer portal, API documentation, SDK, or machine-readable contract of any kind.
 
-## API surface
+**Areas:** Company · Industrial Automation · Manufacturing · Machine Tools · CNC · Robotics · Hardware · China
 
-**None found.** Probed 2026-09-14. The company's only live web host, `descnc-china.com`, is a
-Chinese-language corporate site with seven sections (home, about, news, products, technology
-centre, investor relations, careers) and no developer, API, or documentation area. Every named
-`/.well-known/` path and every conventional specification path (`/openapi.json`, `/openapi.yaml`,
-`/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql`, `/llms.txt`)
-returned HTTP 404 on both `descnc-china.com` and `www.descnc-china.com`. No npm, PyPI or GitHub
-organization presence. See `apis.yml` `x-coverage` for the recorded evidence.
+## AIMACH Automation on APIs.io
 
-## Name collisions — do not merge these
+Everything profiled for AIMACH Automation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aimachautomation/](https://apis.io/providers/aimachautomation/)** — or go straight to one of the APIs or properties below.
 
-- **AI Mach** (`aimach.ai`, Irving, Texas) is an unrelated enterprise-AI marketplace. `aimach.net`
-  301-redirects to it; that redirect is **not** this company.
-- `aimach.com.cn` is a parked domain listed for sale by a domain broker.
-- `desu-aimach.com` carries this company's corporate mail (MX + SPF) but serves no website.
+### Published properties
 
-## Links
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Website — http://descnc-china.com/
-- Products — http://descnc-china.com/products.html
-- Technology centre — http://descnc-china.com/js.html
-- Investor relations — http://descnc-china.com/tz1_class_6.html
-- EquityZen profile (harvest source) — https://equityzen.com/company/aimachautomation
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aimachautomation Domain Security](https://apis.io/security/aimachautomation/aimachautomation-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://descnc-china.com/)
+- [Support](http://descnc-china.com/about_7.html)
+- [Blog](http://descnc-china.com/news.html)
+
+## API Evangelist rating
+
+**Kin Score 5.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aimachautomation/](https://apis.io/providers/aimachautomation/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AIMACH Automation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aimachautomation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
